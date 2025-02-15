@@ -1,9 +1,9 @@
 import React from 'react'
 import './Homecategory.css'
-import decour from '../../ASSETS/decour.jpg'
-import lamps from '../../ASSETS/lamps.jpg'
-import wood from '../../ASSETS/wood.jpg'
-import wool from '../../ASSETS/wool.jpg'
+import decour from '../../ASSETS/Images/decour.jpg'
+import lamps from '../../ASSETS/Images/lamps.jpg'
+import wood from '../../ASSETS/Images/wood.jpg'
+import wool from '../../ASSETS/Images/wool.jpg'
 const HomeCategory = () => {
   return (
     <div className='homecategories'>

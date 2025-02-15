@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from '../../ASSETS/decour.jpg';
-import img2 from '../../ASSETS/lamps.jpg';
-import img3 from '../../ASSETS/wood.jpg';
-import img4 from '../../ASSETS/wool.jpg';
+import img1 from '../../ASSETS/Images/decour.jpg';
+import img2 from '../../ASSETS/Images/lamps.jpg';
+import img3 from '../../ASSETS/Images/wood.jpg';
+import img4 from '../../ASSETS/Images/wool.jpg';
 import './CategorySidebar.css'
 
 
@@ -58,7 +58,7 @@ const CategorySidebar = () => {
                   <div className='category'>
                     <img src={item.categoryimage}
                     alt='categoryimage'/>
-                    <p>{item.categoryname}</p>
+                    <h3>{item.categoryname}</h3>
                   </div>
                 )
               })
